@@ -22,6 +22,12 @@ Note that, this troubleshooter is very customizable (if you're very knowledgeabl
 4. Make sure there is only 1 Batch file outside of `powershell` folder.
 5. Run the batch file. Instructions should be displayed in the command prompt.
 
+### FAQ
+
+1. Why is "System" preventing the USB from ejecting/unloading?
+
+    **A**: Check and see if you accidentally copied a file or multiple files within that USB storage media. If so, you have to copy any other file(s) that doesn't belong in the USB storage media, like any of the desktop shortcuts on the Desktop, and then the System will release your USB storage media, allowing you eject it safely.
+
 ### Contribution
 
 1. **ALWAYS A REQUIREMENT** - You must add comments (either `REM` in batch scripts or `#` in Powershell) for every section of code you add, delete, or tweak/modify in your pull requests. This helps future contributors (beginners and experts alike) in knowing what the command lines and/or changes are doing. If it's hard to describe it easily, at least give a very high level description of the abstract task.
